@@ -11,7 +11,7 @@ eureka:
     secure-port: 443
 
   client:
-    service-url:
+    serviceUrl:
       defaultZone: ${EUREKA_URL:http://localhost:8762/eureka}
       
 
